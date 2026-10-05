@@ -1,0 +1,12 @@
+[project]
+name = "pyzero-starter"
+version = "0.1.0"
+description = "A movable character and example sprites for a first Pygame Zero game."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pgzero==1.2.1",
+    "pygame==2.6.1",
+]
+
+[tool.uv]
+package = false
